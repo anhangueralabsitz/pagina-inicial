@@ -51,7 +51,7 @@ body {
     text-align: justify;
 }
 .size {
-    font-size: 1.35rem;
+    font-size: 1.55rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
@@ -111,7 +111,7 @@ body {
     margin-top: 1rem;
     width: 300px;
     height: 200px;
-    transition: opacity 0.8s ease;
+    transition: opacity 0.8s linear;
 }
 #image-link img.hidden {
     opacity: 0; /* Define a opacidade 0 para esconder a imagem */
@@ -147,11 +147,11 @@ body {
 
 .link3 {
     display: flex;
-    flex-direction: column; /* Dispor os elementos em coluna */
+    flex-direction: column;
 }
 
 .image-container {
-    margin-top: 1rem; /* Espaçamento entre o texto e a imagem */
+    margin-top: 1rem;
 }
 
 #img3 {
@@ -174,7 +174,7 @@ body {
     margin-top: 1rem;
     width: 300px;
     height: 200px;
-    transition: opacity 0.8s ease;
+    transition: opacity 0.8s linear;
 }
 #image-link4 img.hidden {
     opacity: 0; /* Define a opacidade 0 para esconder a imagem */
@@ -193,7 +193,7 @@ body {
     margin-top: 1rem;
     width: 300px;
     height: 200px;
-    transition: opacity 0.8s ease;
+    transition: opacity 0.8s linear;
 }
 #image-link5 img.hidden {
     opacity: 0; /* Define a opacidade 0 para esconder a imagem */
