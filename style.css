@@ -51,7 +51,7 @@ body {
     text-align: justify;
 }
 .size {
-    font-size: 1.55rem;
+    font-size: 1.75rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
@@ -162,6 +162,10 @@ body {
     position: relative;
     background-size: cover;
     filter: brightness(100%);
+}
+
+#img3:hover {
+    filter: brightness(85%);
 }
 
 .link3 h1 {
